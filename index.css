@@ -6,6 +6,7 @@ body {
   margin: 0;
   border: none;
   position: relative;
+  font-size: 24px;
 }
 
 header {
@@ -47,19 +48,19 @@ header ul li#home {
 
 
 header #home img {
-  height: 30px;
-  padding: 4px;
+  height: 1.5rem;
+  padding: 0.25rem;
 }
 
 main {
-  padding-top: 40px;
-  margin: 0 10px
+  padding-top: 2rem;
+  margin: 0 0.5rem
 }
 
 main #cover img {
   display: block;
   margin: 0 auto;
-  width: min(90vw, 300px);
+  width: min(90vw, 10rem);
   /* width: 90%; */
 }
 
@@ -72,5 +73,5 @@ main #cover h2{
 main section p {
   text-align: center;
   margin: 10px auto;
-  width: min(80vw, 400px);
+  width: min(80vw, 15rem);
 }
