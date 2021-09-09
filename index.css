@@ -65,7 +65,7 @@ header ul li#home {
 
 header #home img {
   height: 1rem;
-  padding: 15%;
+  padding: 15% 1rem;
 }
 
 main {
