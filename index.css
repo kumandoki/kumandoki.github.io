@@ -49,11 +49,12 @@ header ul li a.current {
 }
 
 header ul li a {
-  margin-right: 10px;
+  margin-right: 1rem;
   border-bottom: 1px dashed #444;
   text-decoration: none;
   color: #888;
   display: flex;
+  line-height: 1.5rem;
 }
 
 header ul li#home {
