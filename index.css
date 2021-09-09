@@ -7,7 +7,7 @@ body {
   border: none;
   position: relative;
   font-family: 'Bad Script';
-  font-size: 32px;
+  font-size: 24px;
   text-shadow: 1px 1px 2px white;
   background: rgb(197,231,180);
   background: radial-gradient(circle, rgba(197,231,180,1) 0%, rgba(98,139,59,1) 100%); 
@@ -15,7 +15,7 @@ body {
 
 @media only screen and (max-width: 800px) {
   body {
-    font-size: 24px;
+    font-size: 16px;
   }
 
   main #cover img {
