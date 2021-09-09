@@ -85,7 +85,7 @@ main #cover img {
   display: block;
   margin: 0 auto;
   padding: 0 72px;
-  width: 20rem;
+  width: min(50vw, 20rem);
     /* width: 90%; */
 }
 
