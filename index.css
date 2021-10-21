@@ -7,30 +7,40 @@ body {
   border: none;
   position: relative;
   font-family: 'Zilla Slab';
-  font-size: 16px;
+  font-size: 24px;
   text-shadow: 1px 1px 2px white;
   background: rgb(197,231,180);
   /* background: radial-gradient(circle, rgba(197,231,180,1) 0%, rgba(98,139,59,1) 100%);  */
 }
 
-@media only screen and (max-width: 800px) {
-  body {
-    font-size: 12px;
-  }
-
-  main #cover img {
-    width: 15rem;
-  }
+@media only screen and (max-width: 1000px) {
 
   main#menu section > ul {
     padding: 0;
     margin: 0;
     display: grid;
     grid-template-columns: 1fr !important;
+    font-size: 4rem;
+  }
+  body {
+    font-size: 30px;
+  }
+  main section p {
+    text-align: center;
+    margin: 10px auto;
+    width: auto !important;
+  }
+  
+}
+@media only screen and (max-width: 800px) {
+  
+
+  main #cover img {
+    width: 10rem;
   }
 
   main#menu li li {
-    font-size: 0.5rem !important;
+    font-size: 1rem !important;
   }
 
   /* main section#gallery {
@@ -123,12 +133,16 @@ main #cover h2{
 main section p {
   text-align: center;
   margin: 10px auto;
-  width: min(80vw, 20rem);
+  width: min(90vw, 30rem);
   line-height: 1.5rem;
 }
 
 main a {
   color: rgb(4, 97, 85);
+}
+
+main#home {
+  font-size: 2rem;
 }
 
 main section#gallery {
@@ -165,7 +179,7 @@ li {
 }
 
 main#menu section {
-  width: min(80vw, 40rem);
+  width: min(90vw, 60rem);
   margin: auto;
 }
 
@@ -194,7 +208,7 @@ main#menu section > ul {
 main#menu section > ul>li {
   background-color: rgb(219, 180, 231);
   padding: 5px;
-  font-size: 0.7rem;
+  font-size: 1rem;
 }
 
 main#menu h4 {
@@ -206,7 +220,7 @@ main#menu p {
   text-transform: uppercase;
 }
 main#menu li li {
-  font-size: 0.6rem;
+  font-size: 1rem;
   opacity: 0.6;
   list-style: circle;
 }
